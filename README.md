@@ -23,18 +23,12 @@ Happiness scores and rankings use data from the Gallup World Poll. The scores ar
 
 The Kaggle data sources contained data in CSV format, while Prosperity contained data in XLSX format. These datasets were chosen because they not only contained sufficient data as related to happiness (economic, health/safety, business environment, infrastructure etc.) for >150 countries, but also presented the data relatively cleanly. This was critical as the duration of the project was < 1 week; therefore, the team needed credible data that can be relatively quickly transformed for further analysis.    
 
-# Transforming Data: The following shows how the data was cleaned up/
+# Transforming Data: The following shows how the data was cleaned up
 
-First off, the Prosperity dataset (Excel File) was saved as a CSV, and then all the datasets were read into Jupyter Notebook. 
-Secondly, as all the tables had several columns, the team created an 
-
-* The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).
-* The type of final production database to load the data into (relational or non-relational).
-* The final tables or collections that will be used in the production database.
+The first step in transformation was to repurpose the data tables in order to transform them. Steps taken here were to save he Prosperity dataset (Excel File) as a CSV, then read into Jupyter Notebook. The dataset also contained several columns that were not needed for final loading. Many of the columns contained Happiness related data for years prior to 2019; these were deleted. Then, the team consolidated and renamed the table columns as appropriate for all tables for ease of tracking. Finally, the team formed a plan to join the data tables together so the reader may quickly discern, which countries were the happiest in 2019 and a key reason why. 
 
 # Loading Data: The following summarizes the finished table and its rationale
  
-At the end of the week, your team will submit a Final Report that describes the following:
-1. 	Extract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
-2. 	Transform: what data cleaning or transformation was required.
+To join the tables, and simplify its readability, one key criterion of happiness was selected: Economic Productivity and Competitiveness. The rationale behind this choice is that happier countries tend to be more productive, which generates more wealth that allows the country's government and people to fund important services (infrastructure, public education, social services etc.) that helps the country become even more productive, and so forth.  
+
 3. 	Load: the final database, tables/collections, and why this was chosen.
