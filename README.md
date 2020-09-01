@@ -21,18 +21,18 @@ Happiness scores and rankings use data from the Gallup World Poll. The scores ar
 * https://www.kaggle.com/worldbank/world-development-indicators
 * https://www.prosperity.com/about/resources
 
-The Kaggle data sources contained data in CSV format, while the Prosperity data source contained data in XLSX format.  
+The Kaggle data sources contained data in CSV format, while Prosperity contained data in XLSX format. These datasets were chosen because they not only contained sufficient data as related to happiness (economic, health/safety, business environment, infrastructure etc.) for >150 countries, but also presented the data relatively cleanly. This was critical as the duration of the project was < 1 week; therefore, the team needed credible data that can be relatively quickly transformed for further analysis.    
 
 # Transforming Data: The following shows how the data was cleaned up/
 
 First off, the Prosperity dataset (Excel File) was saved as a CSV, and then all the datasets were read into Jupyter Notebook. 
-
+Secondly, as all the tables had several columns, the team created an 
 
 * The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).
 * The type of final production database to load the data into (relational or non-relational).
 * The final tables or collections that will be used in the production database.
 
-### Project Report
+# Loading Data: The following summarizes the finished table and its rationale
  
 At the end of the week, your team will submit a Final Report that describes the following:
 1. 	Extract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
