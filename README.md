@@ -13,16 +13,21 @@ Happiness scores and rankings use data from the Gallup World Poll. The scores ar
 
 ![Happiness](https://www.tusharvakil.com/wp-content/uploads/2019/09/Finding-Happiness.jpg)
 
-### Project Guidelines:
-Finding Data: Use 2 or more sources of data. We recommend the following sites to use as sources of data:    
+### Project Report:
 
-* [data.world](https://data.world/)
-* [Kaggle](https://www.kaggle.com/)
-* APIs or data scraped from the web
-### Data Cleanup & Analysis
-Once you have identified your datasets, perform ETL on the data. Make sure to plan and document the following:
+# Extracting Data: The following data sources were used to generate "Happiness Data":   
 
-* The sources of data that you will extract from.
+* https://www.kaggle.com/unsdsn/world-happiness
+* https://www.kaggle.com/worldbank/world-development-indicators
+* https://www.prosperity.com/about/resources
+
+The Kaggle data sources contained data in CSV format, while the Prosperity data source contained data in XLSX format.  
+
+# Transforming Data: The following shows how the data was cleaned up/
+
+First off, the Prosperity dataset (Excel File) was saved as a CSV, and then all the datasets were read into Jupyter Notebook. 
+
+
 * The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).
 * The type of final production database to load the data into (relational or non-relational).
 * The final tables or collections that will be used in the production database.
