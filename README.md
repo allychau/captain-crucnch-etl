@@ -19,6 +19,8 @@ Happiness scores and rankings use data from the Gallup World Poll. The scores ar
 
 # Extracting Data: The following data sources were used to generate "Happiness Data":   
 
+Extract is the process of reading data from a database. In this stage, the data is collected, often from multiple and different types of sources.
+
 * https://www.kaggle.com/unsdsn/world-happiness
 * https://www.kaggle.com/worldbank/world-development-indicators
 * https://www.prosperity.com/about/resources
@@ -27,10 +29,14 @@ The Kaggle data sources contained data in CSV format, while Prosperity contained
 
 # Transforming Data: The following shows how the data was cleaned up
 
+Transform is the process of converting the extracted data from its previous form into the form it needs to be in so that it can be placed into another database. Transformation occurs by using rules or lookup tables or by combining the data with other data.
+
 The first step in transformation was to repurpose the data tables in order to transform them. Steps taken here were to save he Prosperity dataset (Excel File) as a CSV, then read into Jupyter Notebook. The dataset also contained several columns that were not needed for final loading. Many of the columns contained Happiness related data for years prior to 2019; these were deleted. Then, the team consolidated and renamed the table columns as appropriate for all tables for ease of tracking. Finally, the team formed a plan to join the data tables together so the reader may quickly discern, which countries were the happiest in 2019 and a key reason why. 
 
 # Loading Data: The following summarizes the finished table and its rationale
- 
+
+Load is the process of writing the data into the target database.
+
 To join the tables, and simplify its readability, one key criterion of happiness was selected: Economic Productivity and Competitiveness. The rationale behind this choice is that happier countries tend to be more productive, which generates more wealth that allows the country's government and people to fund important services (infrastructure, public education, social services etc.) that helps the country become even more productive, and so forth.  
 
-3. 	Load: the final database, tables/collections, and why this was chosen.
+
