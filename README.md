@@ -37,6 +37,6 @@ The first step in transformation was to repurpose the data tables in order to tr
 
 Load is the process of writing the data into the target database.
 
-To join the tables, and simplify its readability, one key criterion of happiness was selected: Economic Productivity and Competitiveness. The rationale behind this choice is that happier countries tend to be more productive, which generates more wealth that allows the country's government and people to fund important services (infrastructure, public education, social services etc.) that helps the country become even more productive, and so forth.  
+To join the tables, and simplify its readability, one key criterion of happiness was selected: Economic Productivity and Competitiveness. The rationale behind this choice is that happier countries tend to be more productive, which generates more wealth that allows the country's government and people to fund important services (infrastructure, public education, social services etc.) that helps the country become even more productive (and by extension, even more happy), and so forth.  
 
 
