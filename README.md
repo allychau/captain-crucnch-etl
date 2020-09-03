@@ -15,6 +15,8 @@ Happiness scores and rankings use data from the Gallup World Poll. The scores ar
 
 ### Project Report:
 
+![ETL](https://www.webopedia.com/imagesvr_ce/5182/etl-diagram.JPG)
+
 # Extracting Data: The following data sources were used to generate "Happiness Data":   
 
 * https://www.kaggle.com/unsdsn/world-happiness
